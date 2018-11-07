@@ -19,6 +19,11 @@ int main(int argc, char** argv)
 
 	std::cout <<"N: "<<N<<"\nMu: "<< mu<<"\nSigma: "<<sigma<< std::endl;
 
+	ofstream myfile;
+	myfile.open ("sample.dat");
+	myfile << "Imprime"<<"\n";
+	myfile.close();
+
 
 }
 
