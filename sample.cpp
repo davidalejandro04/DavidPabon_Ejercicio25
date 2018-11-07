@@ -28,7 +28,12 @@ int main(int argc, char** argv)
 
 	ofstream myfile;
 	myfile.open ("sample.dat");
-	myfile << "Imprime"<<"\n";
+	
+	for(int i=0;i<N;i++)
+	{
+		myfile << dist[i]<<"\n";
+		N=N-1;
+	}
 	myfile.close();
 
 
