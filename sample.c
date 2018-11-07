@@ -13,5 +13,11 @@ double generarGaussiana(double mu, double sigma);
 
 int main(int argc, char** argv)
 {
-	std::cout <<"N: "<<argv[1]<<"\nMu: "<< argv[2]<<"\nSigma: "<<argv[3]<< std::endl;
+	N=atof(argv[1]);
+	mu=atof(argv[2]);
+	sigma=atof(argv[3]);
+
+	std::cout <<"N: "<<N<<"\nMu: "<< mu<<"\nSigma: "<<sigma<< std::endl;
+
+
 }
