@@ -5,3 +5,13 @@
 #include <limits>
 #include <iostream>
 #include <fstream>
+
+int N;
+double mu;
+double sigma;
+double generarGaussiana(double mu, double sigma);
+
+int main()
+{
+
+}
