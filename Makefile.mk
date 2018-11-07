@@ -4,6 +4,6 @@ sample.pdf: sample.dat
 
 
 sample.dat: sample.cpp
-	g++ sample.cpp -lm -o a.x
+	gcc sample.cpp -lstdc++ -lm -o a.x
 	./a.x 1000 0 2
 
