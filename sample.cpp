@@ -20,6 +20,10 @@ int main(int argc, char** argv)
 	std::cout <<"N: "<<N<<"\nMu: "<< mu<<"\nSigma: "<<sigma<< std::endl;
 
 	double *dist=new double[N];
+	for(int i=0;i<N;i++)
+	{
+		dist[i]=generarGaussiana(mu,sigma);
+	}	
 
 
 	ofstream myfile;
