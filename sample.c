@@ -11,7 +11,7 @@ double mu;
 double sigma;
 double generarGaussiana(double mu, double sigma);
 
-int main()
+int main(int argc, char** argv)
 {
-
+	std::cout <<"N: "<<argv[1]<<"\nMu: "<< argv[2]<<"\nSigma: "<<argv[3]<< std::endl;
 }
